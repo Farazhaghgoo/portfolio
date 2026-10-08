@@ -27,7 +27,7 @@ npm run build && npm run start
 | `data/lab.ts` | Lab experiments (each needs a component, see below) |
 | `data/graveyard.ts` | Abandoned ideas and lessons (empty on purpose) |
 | `data/social.ts` | Email and LinkedIn |
-| `data/demos.ts` | Hero checklist, sample question and fictional dashboard figures |
+| `data/demos.ts` | Sample question and fictional dashboard figures |
 | `data/notes.ts` | Expandable working notes |
 | `data/signals.ts` | The discoverable signals and their hints |
 | `data/site.ts` | Title, description, canonical URL |
@@ -72,7 +72,7 @@ The inRebus screenshots in `public/work/inrebus-educational/` are captures of th
 | Hidden commands | `graveyard`, `log`, `sudo`, `hello`, `reset`, `theme auto` (typed only) |
 | Inspect mode | The small two-bar mark at the very bottom of every page, or `inspect` |
 | Session log | ↑ ↑ ↓ ↓ ← → ← → B A, or `log` |
-| Status cycle | Visit System, Interface and Product in the homepage demo |
+| Status cycle | Visit Systems, Interfaces and Experiments in the homepage shapes |
 | Graveyard | `/graveyard` (also mentioned in `robots.txt`) |
 
 Signals (7) are stored in `localStorage`; the session log in `sessionStorage`. Nothing is sent anywhere. If analytics are ever added, update the copy in `components/system/session-log.tsx`, which promises otherwise.
@@ -100,6 +100,6 @@ lib/                 types, content selectors, client store, hooks
 
 ## Interactive project sketches
 
-EXAMassist and VibeAssist previews are original portfolio sketches, explicitly labeled sample data. They do not connect to production accounts, exams or metrics. The hero checklist keeps its state while switching views; demo state resets on a fresh page load. Public contribution statements are grounded in the research notes in `docs/portfolio-research.md`. Private application source and screenshots are not included.
+EXAMassist and VibeAssist previews are original portfolio sketches, explicitly labeled sample data. They do not connect to production accounts, exams or metrics. The hero cycles through three animated shapes; project demo state resets on a fresh page load. Public contribution statements are grounded in the research notes in `docs/portfolio-research.md`. Private application source and screenshots are not included.
 
 `ProjectPreview` shares a React ViewTransition identity between the index and each detail page. Browsers without support navigate normally; reduced motion disables the transition. Detail-page index links return to the corresponding project anchor.

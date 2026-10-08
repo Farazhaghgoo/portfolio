@@ -1,11 +1,3 @@
-export const heroDemo = {
-  modes: [
-    { title: "System", note: "A little structure.", detail: "Input, state, output. The bones of a tiny release checklist." },
-    { title: "Interface", note: "Structure becomes understandable.", detail: "The same pieces, arranged around the task." },
-    { title: "Product", note: "Now make it work.", detail: "Check off a task. Your progress stays as you change views." },
-  ],
-  tasks: ["Shape the idea", "Build the interaction", "Ship the details"],
-};
 export const examDemo = {
   question: "A product costs €80 before a 25% discount. What is the new price?",
   options: ["€55", "€60", "€65"],

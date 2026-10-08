@@ -18,7 +18,7 @@ export const signals: Signal[] = [
   {
     id: "cycle",
     found: "Ran a full cycle.",
-    hint: "Follow the homepage idea through all three stages: system, interface, product.",
+    hint: "Explore all three homepage shapes: systems, interfaces, experiments.",
   },
   {
     id: "inspect",
